@@ -62,7 +62,7 @@ model_size = st.sidebar.selectbox("YOLO Model Size", options=["n", "s", "m"], in
 confidence_threshold = st.sidebar.slider("Confidence Threshold", 0.25, 0.95, 0.5, 0.05)
 model = load_model(model_size)
 
-st.title("YOLOScope -🎥 YOLOv8 Object Detection")
+st.title("YOLOScope - 🎥 YOLOv8 Object Detection")
 st.markdown("Upload a video or enter a YouTube URL to detect objects in real-time with performance visualization.")
 
 uploaded_file = st.file_uploader("📁 Upload your video", type=["mp4", "avi", "mov"])
