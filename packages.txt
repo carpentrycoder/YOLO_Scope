@@ -1,0 +1,39 @@
+ffmpeg
+
+
+st.set_page_config(page_title="YOLOv8 Matte Vision", layout="wide")
+st.markdown("""
+    <style>
+        .stApp {
+            background-color: #0f0f0f;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', sans-serif;
+        }
+        .css-1offfwp {
+            background-color: #0f0f0f;
+        }
+        .css-1v0mbdj {
+            background-color: #1e1e1e;
+        }
+        .stButton>button {
+            color: white;
+            background-color: #222222;
+            border-radius: 10px;
+        }
+        .stProgress > div > div {
+            background-color: #888 !important;
+        }
+        .plotly-container {
+          background-color: #2a2a2a;
+          border-radius: 12px;
+          padding: 20px;
+          box-shadow: 0 4px 12px rgba(0,0,0,0.6);
+          margin-bottom: 20px;
+          border: 1px solid #444444;
+        }
+        .plotly-container .js-plotly-plot {
+          background-color: #1e1e1e !important;
+          border-radius: 12px !important;
+        }
+    </style>
+""", unsafe_allow_html=True)
