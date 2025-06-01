@@ -1,0 +1,6 @@
+path: C:\Users\Admin\Documents\GitHub\YOLO_Scope\datasets\custom
+train: train/images
+val: train/images
+
+names:
+  0: nikhil
